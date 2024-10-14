@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    padding-left: 2rem;
+    text-shadow: 2px 2px 10px white;
+}
+h1:hover{
+    transition: 2s;
+    transform:scale(2);
+    font-style: bold;
+}
+/* @media screen and (min-width: 200px) {
+    main{
+        width: 200px;
+    }
+} */
+.main{
+    height: 40em;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "copperplate","papyrus";
+    color: white;
+    background-image: url(calc\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.body{
+    height:100%;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+}
+#calc{
+    height: 90%;
+    width: 40%;
+    border: 2px dotted dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 20px 10px red;
+}
+.box{
+    height: 15vmin;
+    width: 15vmin;
+    background-color: rgb(245, 107, 245);
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 2px 2px 20px 10px purple;
+}
+#output{
+    height: 15vmin;
+    width: 90%;
+}
+.result{
+    height: 15vh;
+    width: 100%;
+    font-size: 40px;
+    background-color: white;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 10px purple;
+    font-size: 70px;
+    color: black;
+}
